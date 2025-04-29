@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquidación de Bonificaciones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Liquidación de Bonificaciones</h1>
+        <form action="/" method="POST" enctype="multipart/form-data" class="mt-4">
+            <div class="form-group">
+                <label for="file">Sube tu archivo Excel:</label>
+                <input type="file" name="file" class="form-control-file" id="file" required>
+            </div>
+            <a href="https://github.com/jastmarin6/nomina/raw/refs/heads/main/plantilla.xlsx" class="btn btn-secondary btn-block mb-3">Descargar Plantilla</a>
+            <button type="submit" class="btn btn-primary btn-block">Procesar y Descargar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -108,7 +108,7 @@ def categorizar_inspector(inspecciones):
     else:
         return "SIN CATEGORIA"
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/nomina", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
         file = request.files["file"]
